@@ -16,8 +16,12 @@ Perhaps the single biggest memory management problem with pandas is the requirem
      Module injection — It occurs when a malicious Python module or package file is imported into a directory.
     SQL injection — It involves introducing malicious input that is executed in the context of SQL statements.
     Command injection — It occurs when calling a process, subprocess, or os.system. Specially crafted variables can contain malicious values, which introduce vulnerabilities when called in local commands.
-    [Links uz Input injection](https://itnext.io/common-python-security-problems-ffedbae7b11c)
+    [Links uz Input injection](https://itnext.io/common-python-security-problems-ffedbae7b11c)  
     
-    Misusing Import Functionalities 
     
+   
+    Window Events 
+    ![image](https://www.howtogeek.com/thumbcache/2/200/b7c0e5ae728f831e1c32099faf796982/wp-content/uploads/2017/11/ev_top.png)
+    
+   
  
