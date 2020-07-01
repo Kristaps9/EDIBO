@@ -9,8 +9,8 @@ Converting Dataframes into Dictionaries
 Memory mapping huge datasets
 
 Perhaps the single biggest memory management problem with pandas is the requirement that data must be loaded completely into RAM to be processed. pandas's internal BlockManager is far too complicated to be usable in any practical memory-mapping setting [Links](https://wesmckinney.com/blog/apache-arrow-pandas-internals/)  
- Doing missing data right
- Manipulations on a Pandas DataFrame
+ Doing missing data right  
+ Manipulations on a Pandas DataFrame  [Links](https://medium.com/cyberdefendersprogram/python-for-cybersecurity-lesson-3-data-analysis-with-pandas-501441e14fe0)
  
  Input Injection
      Module injection — It occurs when a malicious Python module or package file is imported into a directory.
