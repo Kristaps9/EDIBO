@@ -19,8 +19,7 @@ Perhaps the single biggest memory management problem with pandas is the requirem
     [Links uz Input injection](https://itnext.io/common-python-security-problems-ffedbae7b11c)  
     
     
-   
-    Window Events   
+  Window Events   
     ![image](https://www.howtogeek.com/thumbcache/2/200/b7c0e5ae728f831e1c32099faf796982/wp-content/uploads/2017/11/ev_top.png)
     
    
