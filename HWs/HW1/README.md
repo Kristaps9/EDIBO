@@ -8,7 +8,7 @@ Nav ne jausmas ,ko vajag darit
 Converting Dataframes into Dictionaries
 Memory mapping huge datasets
 
-Perhaps the single biggest memory management problem with pandas is the requirement that data must be loaded completely into RAM to be processed. pandas's internal BlockManager is far too complicated to be usable in any practical memory-mapping setting
+Perhaps the single biggest memory management problem with pandas is the requirement that data must be loaded completely into RAM to be processed. pandas's internal BlockManager is far too complicated to be usable in any practical memory-mapping setting [Links](https://wesmckinney.com/blog/apache-arrow-pandas-internals/)
  Doing missing data right
  Manipulations on a Pandas DataFrame
  
