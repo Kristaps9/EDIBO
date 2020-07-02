@@ -1,0 +1,175 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  download
+    4  python
+    5  firefox
+    6  firefox
+    7  firefox &
+    8  pwd
+    9  cd
+   10  pwd
+   11  cd downloads
+   12  cd Downloads
+   13  pwd
+   14  firefox
+   15  firefox &
+   16  pwd
+   17  clear
+   18  s
+   19  clear
+   20  VirtualBox --startvm XP
+   21  pwd
+   22  history
+   23  pwd
+   24  ls
+   25  cd music
+   26  cs Music
+   27  ls .
+   28  ls /
+   29  ls /home
+   30  ls /home/user
+   31  ls /home/user/public
+   32  ls /home/user/Public
+   33  ls /home/user
+   34  ls /home/sc/
+   35  ls /home/user/Public
+   36  pwd
+   37  ls 
+   38  ls /Dekstop
+   39  cd Dekstop
+   40  cd Desktop
+   41  pwd
+   42  history
+   43  ls
+   44  \ ls
+   45  mkdir/abc
+   46  mkdir
+   47  help
+   48  pwd
+   49  ls
+   50  mkdir abc
+   51  mkdir ABC
+   52  ls
+   53  mkdir Abc
+   54  mkdir AbC
+   55  mkdir ABc
+   56  ls
+   57  mkdir aBC
+   58  mkdir aBc
+   59  ls
+   60  mkdir ABc
+   61  ls
+   62  mkdir ABc
+   63  mkdir abC
+   64  list
+   65  ls
+   66  ls -l
+   67  ls -l abc
+   68  ls -l /home/user/desktop
+   69  ls -l /home/user/Desktop
+   70  clear
+   71  pwd
+   72  cd
+   73  pwd
+   74  cd /etc
+   75  ls
+   76  ls | head
+   77  ls | tail
+   78  ls | head
+   79  ls | head 3
+   80  ls | head3
+   81  ls | 3head
+   82  ls | head -n 3
+   83  ls | tail -n 3
+   84  ls | head +c 
+   85  ls | head c
+   86  ls | head -c 
+   87  ls | head -c 3
+   88  ls | head -n 3
+   89  ls | head -n 3 |wc
+   90  cd /etc/
+   91  cd /etc
+   92  ls | head -n 3 |wc -l
+   93  ls | head -n 3 |wc -c
+   94  ls | tail -n 
+   95  ls | wc -c
+   96  cd
+   97  ls
+   98  ls Desktop
+   99  ls | wc -c
+  100  wc -- help
+  101  wc --help
+  102  java
+  103  java -version
+  104  python
+  105  pwd
+  106  ls
+  107  ls /Desktop
+  108  cd Desktop
+  109  ls
+  110  cd
+  111  clear
+  112  a=123
+  113  cd
+  114  echo
+  115  echo a
+  116  a=666
+  117  echo $a
+  118  b=Privet
+  119  echo $b
+  120  b=Privet moj drug
+  121  b=Privet
+  122  b=Privet s
+  123  b="Privet moj drug"
+  124  echo $b
+  125  echo $b $a
+  126  c=!
+  127  echo $c
+  128  echo $a $b $c
+  129  date
+  130  d=date
+  131  echo $d
+  132  d=date |echo $d
+  133  d=date | echo $d
+  134  echo 'date'
+  135  `date`
+  136  echo `date`
+  137  echo $a
+  138  a=123
+  139  z=44
+  140  echo $a $z
+  141  echo $a
+  142  a=123
+  143  z=44
+  144  echo `$a+$z`
+  145  echo `$a+$z=`
+  146  echo $num1+$num2;
+  147  echo $num1+$num2
+  148  sum=$(($123+$44))
+  149  echo sum
+  150  echo $sum
+  151  sum=$(($z+$a))
+  152  echo $sum
+  153  sum=$(($z-$a))
+  154  echo $sum
+  155  sum=$(($a/$z))
+  156  echo $sum
+  157  pwd
+  158  ls
+  159  sum=$(($a/$z))
+  160  echo=$(($a/$z))
+  161  echo =$(($a/$z))
+  162  echo $((a+z)) EUR
+  163  echo $((a+z)) EUR > a.text
+  164  ls
+  165  ls -l/a.txt
+  166  ls -l a.txt
+  167  ls -l a.text
+  168  cat
+  169  histor
+  170  history
+  171  history / h.text
+  172  ls -l h.text
+  173  cat text
+  174  ls -l 
+  175  history > h.txt
