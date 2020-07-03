@@ -3,4 +3,4 @@ git config --global user.email kurpnieks.kristaps9@gmail.com
 git add .
 git commit -m "20200703_16_21"
 git pull
-git push orgin master
+git push origin master
