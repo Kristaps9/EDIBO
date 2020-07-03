@@ -1,1 +1,19 @@
+ctr + alt + t - jauns terminals
+ctrl + shift + T - jauns tabs terminalam
+ctrl + l - clear
 
+echo $0 - ar ko mes komunicejam
+
+TAB(2xspiest) - vienmer piedava variantus
+man command_name - izlasit visus variantus (izziet ar - quit)
+command_name - key(s) argument(s) 
+ls - l 
+
+Day2: pwd,ls -cla, history, cd ,mkdir, cat, date, ls -l, ls -lt
+pwd,ls -cl,mkdir
+cat,tail,wc
+date,history
+
+ctrl +x - save
+
+Day3:
