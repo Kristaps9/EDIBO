@@ -17,3 +17,13 @@ date,history
 ctrl +x - save
 
 Day3:nano , addresses - absulute (/ - root directroy) , relative (., .., ~)
+ls -l - drwxrwxrwx (google it )
+hexdump -c (hex code or ASCII symbol)
+xxd - b (binary code)
+1 byte = 8 biti (0/1 - 2 states) =>  unique codes 2^8=256
+
+whereis ls 
+$PATH
+PATH=$PATH
+chmod 740
+
