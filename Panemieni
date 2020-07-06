@@ -28,5 +28,10 @@ PATH=$PATH
 chmod 740
 
 **Day4:** 
+du -h 
+df -h
+awk - 2. Useful For:
+(a) Transform data files
+(b) Produce formatted reports   https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
 
 
