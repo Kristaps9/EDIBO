@@ -9,14 +9,14 @@ man command_name - izlasit visus variantus (izziet ar - quit)
 command_name - key(s) argument(s) 
 ls - l 
 
-***Day2: pwd,ls -cla, history, cd ,mkdir, cat, date, ls -l, ls -lt
+**Day2:** pwd,ls -cla, history, cd ,mkdir, cat, date, ls -l, ls -lt
 pwd,ls -cl,mkdir
 cat,tail,wc
 date,history
 
 ctrl +x - save
 
-***Day3:nano , addresses - absulute (/ - root directroy) , relative (., .., ~)
+**Day3:**nano , addresses - absulute (/ - root directroy) , relative (., .., ~)
 ls -l - drwxrwxrwx (google it )
 hexdump -c (hex code or ASCII symbol)
 xxd - b (binary code)
@@ -27,5 +27,5 @@ $PATH
 PATH=$PATH
 chmod 740
 
-###Day4:
+**Day4:**
 
