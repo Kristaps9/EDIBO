@@ -1,0 +1,94 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMUjPLiyndcmMRc798iR4IC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kristaps9/EDIBO/blob/master/Main%C4%ABgais%20teksta\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "cMwBNhD-eIPF",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 182
+        },
+        "outputId": "1d448e45-52f5-4bd4-e50e-e4e284406078"
+      },
+      "source": [
+        "def v (z,a,n):\n",
+        "#z = \"Janis\"\n",
+        "#a = \"140\"\n",
+        "#n = \"9091001\"\n",
+        " P = \"\"\"\n",
+        " Mr. %s ,\n",
+        " Man diemzel ir slitkas zinas Jums\n",
+        " - Jus esat parada %s EUR \n",
+        " Lai izvairots no soda,piedavaju savus pakalpojumus\n",
+        " atbildiet pec iespejas atrak uz manu nummuru %s\n",
+        "\n",
+        " Visu labu\n",
+        " \"\"\"%(z , a, n)\n",
+        "  \n",
+        " print(P)\n",
+        "v(\"Nauris\", \"200\", \"9090\")\n",
+        "  \n",
+        "#v=v.replace (\"Jus \", \"Tu\",1)\n",
+        "#print(P.replace(\"EUR\" , \"RUB\", 1))"
+      ],
+      "execution_count": 158,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "\n",
+            " Mr. Nauris ,\n",
+            " Man diemzel ir slitkas zinas Jums\n",
+            " - Jus esat parada 200 EUR \n",
+            " Lai izvairots no soda,piedavaju savus pakalpojumus\n",
+            " atbildiet pec iespejas atrak uz manu nummuru 9090\n",
+            "\n",
+            " Visu labu\n",
+            " \n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3_w0kRImeM5Z",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "5\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
