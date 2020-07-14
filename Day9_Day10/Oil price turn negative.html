@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		title:{
+			text: "Oil price per barrel in dollars"              
+		},
+		data: [              
+		{
+			// Change type to "doughnut", "line", "splineArea", etc.
+			type: "column",
+			dataPoints: [
+				{ label: "2000.year",  y: 25  },
+				{ label: "2004.year",  y: 39.5},
+				{ label: "2008.year",  y: 40  },
+				{ label: "2012.year",  y: 109 },
+				{ label: "2016.year",  y: 53  },
+                { label: "2020.year",  y: 63  }
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+<header style="font-size:80px;"> Oil price turn negative </header>
+<title>Virsrakts lielais</title>
+</head>
+<body>
+<div id="chartContainer" style="height: 250px; width: 400px;"></div>
+
+<button onclick="goBack()">Go Back</button>
+
+<p></p>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+
+<h1>Oil price  from 2000-2020 year</h1>
+
+ <a target="_blank" href="https://www.bbc.com/news/business-52350082"> More info  ! </a>
+ <p> </p>
+ 
+ <img height="250" width="350" src="https://ichef.bbci.co.uk/news/320/cpsprodpb/10276/production/_111866166_wti.oil_20042020-nc.png" alt="Oil price"> 
+<p> </p>
+ 
+ <div class="js-delayed-image-load" data-alt="Oil price chart from 2000 to 2020" data-src="https://ichef.bbci.co.uk/news/320/cpsprodpb/10276/production/_111866166_wti.oil_20042020-nc.png" data-width="2666" data-height="2166"></div>
+<p> </p>
+<p></p>
+
+</body>
+</html>
