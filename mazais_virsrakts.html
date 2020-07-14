@@ -3,12 +3,22 @@
 <html>
 <body>
 <header style="font-size:40px" >Valūtas kursi</header>
-<style> 
+<style>
+header {text-align: center;} 
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 </style>
+<button onclick="goBack()">Go Back</button>
+
+<p></p>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 <table>
 	<tr>
 		<th>Valsts karogs </th>
@@ -17,35 +27,17 @@ table, th, td {
 		<th>Valūtas attiecība pret EURO</th>		
 	 </tr>
 	<tr>
-		<td> &#x1F1FA;&#x1F1F8;</td>
+		<td> <center>&#x1F1FA;&#x1F1F8;</center></td>
 		<td> USD </td>
 		<td>Amerikas dollars</td>
 		<td> 0:92 euro</td>
 	</tr>
 	<tr>
-		<td>&#x1F1F5; &#x1F1F1;</td>
+		<td><center>&#x1F1F5; &#x1F1F1;</center></td>
 		<td> PLN</td>
 		<td>Polijas zlots</td>
 		<td> 0.22 euro</td>
 	</tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
