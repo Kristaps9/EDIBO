@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beidzot sanaca</title>
+
+</head>
+<body>
+    <today-date></today-date>
+    <script>
+    class TodayDateComponet extends HTMLElement {
+        constructor() {
+            super();
+            setInterval(()=> {
+                this.innerText = new Date();
+            },1000)
+            }
+        }
+    const comp = customElements.define('today-date',TodayDateComponet)
+    </script>
+    
+    
+</body>
+</html>
