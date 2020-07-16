@@ -20,7 +20,7 @@ namespace MyFirstWebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get ()
         {
-            return new string[]{"July","2020" ,"EDIBO"};
+            return new string[]{"Jūlijs Kristaps Cēzars","2020" ,"EDIBO","Kristaps"};
 
         }
     }
