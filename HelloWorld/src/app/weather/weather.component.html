@@ -1,0 +1,29 @@
+<h1>Laika zinas</h1>
+<!-- <h2>Datumes no {{startDate}} lidz {{endDate}}</h2> -->
+<h2>Datumi</h2> 
+
+
+<table id="customers" class="table table-border">
+  <thead>
+    <th>Datums</th>
+    <th>TemperatureC</th>
+    <th>TemperatureF</th>
+    <th> summary </th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let temperature of temperatures">
+      <td>{{temperature[1].date}}</td>
+      <td>{{temperature[1].temperatureC}}</td>
+      <td>{{temperature[1].temperatureF}}</td>
+      <td>{{temperature[1].summary}}</td>
+    </tr>
+  </tbody>
+</table>
+<div>
+  {{temperatures[1][1] | json}}
+</div>
+
+
+<!-- <div>
+  {{temperatures | json}}
+</div> -->
