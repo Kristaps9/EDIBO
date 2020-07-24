@@ -1,0 +1,41 @@
+<h1>Kā sokas ?, {{person.name}}!</h1>
+
+<form>
+    <div class="form-group">
+        <label>Imja ?</label>
+        <input type="text" 
+                name="name"
+                [(ngModel)]="person.name" 
+                class="form-control" 
+                placeholder="Enter your name">
+    </div>
+    <div class="alert alert-danger" *ngIf="person.name=='Edgars' || person.name=='edgars'|| person.name=='ēdgars'">Edgarus nedriikst vadiit</div>
+
+    <div class="form-group">
+        <label>Epasts</label>
+        <input type="email" 
+                name="email"
+                [(ngModel)]="person.email" 
+                class="form-control" 
+                placeholder="Enter your email">
+    </div>
+
+    <button type="submit" 
+            class="btn btn-block btn-primary" 
+            (click)="submitForm()">ir?</button>
+</form>
+
+<!-- <pre>{{person|json}}</pre> -->
+
+<!-- POGAS<p>
+    Pogas:
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle >Beidzot sanaca</mat-button-toggle>
+      <mat-button-toggle >Domaju ka bus grutak</mat-button-toggle>
+      <mat-button-toggle >bet tomer nebija tik gruti</mat-button-toggle>
+    </mat-button-toggle-group>
+</p>
+ -->
+
+
+
