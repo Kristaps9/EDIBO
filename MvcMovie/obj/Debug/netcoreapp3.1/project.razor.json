@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MyMVC.csproj",
+  "FilePath": "/home/user/EDIBO/MvcMovie/MvcMovie.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20518,111 +20518,76 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "MyMVC",
+  "RootNamespace": "MvcMovie",
   "Documents": [
     {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/_ViewImports.cshtml",
-      "TargetPath": "MvcMovie\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Shared/_Layout.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Home/Index.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Shared/Error.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Home/Privacy.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Movies/Details.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Movies\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Movies/Delete.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Movies\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/_ViewStart.cshtml",
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/HelloWorld/Welcome.cshtml",
-      "TargetPath": "MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/HelloWorld/Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/_ViewStart.cshtml",
-      "TargetPath": "MvcMovie\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Movies/Edit.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Movies\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Movies/Index.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Movies\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/Movies/Create.cshtml",
-      "TargetPath": "MvcMovie\\Views\\Movies\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/Views/Home/Index.cshtml",
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/user/EDIBO/Dev1/MyMVC/MvcMovie/Views/HelloWorld/Index.cshtml",
-      "TargetPath": "MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/HelloWorld/Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Movies/Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Movies/Create.cshtml",
+      "TargetPath": "Views\\Movies\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Movies/Index.cshtml",
+      "TargetPath": "Views\\Movies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Movies/Edit.cshtml",
+      "TargetPath": "Views\\Movies\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Movies/Delete.cshtml",
+      "TargetPath": "Views\\Movies\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/EDIBO/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
